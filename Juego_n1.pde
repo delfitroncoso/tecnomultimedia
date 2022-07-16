@@ -1,6 +1,7 @@
 
 //TRONCOSO DELFINA (91546/3)
-//VIDEO:https://threadit.app/thread/ku6yo0z8nh8a0l0wi01p
+//VIDEO:https://youtu.be/2JO83Y2BASA
+//VIDEO BUENO:
 
 PImage mono, canasta, win, gameover, fondoinstrucciones, Fondoselva, inicio, ban;
 String estado;
@@ -121,7 +122,7 @@ void draw() {
   if (estado.equals("Creditos")) {
     image(fondoinstrucciones, 0, 0, 500, 500);
     fill(#2B5856);
-    text("Integrante: \n Delfina Troncoso ", width/2, height/2);
+    text("Alumna: \n Delfina Troncoso  \n \n Materia: \n Tecno1 \n \n Comision 2 ", width/2, height/2);
     rect(145, 415, 205, 45);
     fill(255);
     textSize(15);
